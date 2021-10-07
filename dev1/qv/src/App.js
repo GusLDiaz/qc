@@ -3,7 +3,7 @@ import coyote from './images/Coyote.png';
 import metaCube from './images/MetaCube.png';
 import pleasewerk from './images/Pleasewerk.gif';
 import 'bulma/css/bulma.min.css';
-import { Level , Level-Item, Hero, HeroHeader,HeroFooter,HeroBody} from 'react-bulma-components'
+//import { Level , Level-Item, Hero, HeroHeader,HeroFooter,HeroBody} from 'react-bulma-components'
 //import Boxes from './Components/Boxes.js';
 import WebFont from 'webfontloader';
 //import World from './Components/World.js';
