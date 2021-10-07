@@ -4,10 +4,10 @@ import './llaves.css'
 function Gamma (props) {
 
 return (
-  <div className='wrap'>
+  <div >
 
-      <img src={adrift} className="coyote" alt="logo" />
-    <img src={adriftOverlay} className="Overlay" alt="logo Overlay" />
+      <img src={adrift} className="world" alt="logo" />
+    <img src={adriftOverlay} className="sky" alt="logo Overlay" />
   </div>
 )
 };

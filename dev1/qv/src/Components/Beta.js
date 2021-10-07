@@ -4,10 +4,11 @@ import './llaves.css'
 function Beta (props) {
 
 return (
-  <div className='wrap'>
+  <div >
 
-      <img src={ultraviolet} className="coyote" alt="logo" />
-    <img src={ultravioletOverlay} className="Overlay" alt="logo Overlay" />
+      <img src={ultraviolet} className ="world" alt="logo" />
+    <img src={ultravioletOverlay} className="sky" alt="logo Overlay" />
+
   </div>
 )
 };
