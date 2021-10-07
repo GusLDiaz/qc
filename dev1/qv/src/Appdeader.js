@@ -3,7 +3,7 @@ import coyote from './images/Coyote.png';
 import metaCube from './images/MetaCube.png';
 import pleasewerk from './images/Pleasewerk.gif';
 import 'bulma/css/bulma.min.css';
-//import { Level , Level-Item, Hero, HeroHeader,HeroFooter,HeroBody} from 'react-bulma-components'
+import { Level , LevelItem, Hero, HeroHeader,HeroFooter,HeroBody} from 'react-bulma-components'
 //import Boxes from './Components/Boxes.js';
 import WebFont from 'webfontloader';
 //import World from './Components/World.js';
@@ -53,25 +53,41 @@ import HeroQ from "./Components/HeroQ.js"
 function App() {
   return (
     <div class=".container level">
-  <div>
+  <Level>
+    <LevelItem>
+      <Hero>
+  <HeroHeader>
+  </HeroHeader>
+  <HeroBody>
     <HeroQ />
-  </div>
-
-
-          <div>
+  </HeroBody>
+  <HeroFooter>
+  </HeroFooter>
+      </Hero>
+      </LevelItem>
+        <LevelItem>
+        <div>
+        <Level>
+            <LevelItem>
               <Alpha class ="LevelItem"/>
+            </LevelItem>
+            <LevelItem>
               <Beta class ="LevelItem"/>
+            </LevelItem>
+            <LevelItem>
               <Gamma class ="LevelItem"/>
-          </div>
-          <div>
-              <About class ="LevelItem"/>
-          </div>
-          <div>
+            </LevelItem>
+            <LevelItem>
+              <About class ="LevelItem"/>}
+            </LevelItem>
+            <LevelItem>
               <Contact class ="LevelItem" />
-          </div>
+            </LevelItem>
+          </Level>
+        </div>
+        </LevelItem>
+        </Level>
     </div>
-
-
   )
 }
 
